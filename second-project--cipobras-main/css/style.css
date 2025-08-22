@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(223, 223, 223);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.hero {
+  background-image: url(../img/bg.jpeg);
+  height: 500px;
+  background-size: cover;
+  background-position: right center;
+  background-attachment: fixed;
+  padding-top: 1px;
+}
+
+.hero-content {
+  margin: 50px auto 0 auto;
+  width: 75%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hero-content h1 {
+  font-size: 72px;
+  text-shadow: rgb(0, 0, 0) -2px 2px 5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.hero-content p {
+  font-size: 20px;
+  text-shadow: rgb(0, 0, 0) 1px 1px 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 15px;
+  border-bottom: 2px solid;
+}
+
+.hero nav ul {
+  margin: 20px 0px 0 0;
+  text-align: right;
+}
+
+.hero nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  border: 1px solid gray;
+}
+
+.hero nav ul li a {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 16px;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.hero nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+main {
+  width: 90%;
+  max-width: 860px;
+  margin: auto;
+}
+
+section {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+article {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+article header h2 {
+  background-color: rgb(212, 212, 212);
+  padding: 10px;
+  border-bottom: 2px solid rgb(167, 167, 167);
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+article p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+article a {
+  color: rgb(0, 0, 0);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  display: block;
+  border-radius: 10px;
+  margin-left: auto;
+  width: fit-content;
+  text-decoration: none;
+}
+
+article a:hover {
+  background-color: rgb(255, 190, 190);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+}
+
+.cpr {
+  color: rgb(255, 255, 255);
+  background-color: #919191;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  text-shadow: 1px 1px 5px black;
+  letter-spacing: 4px;
+}

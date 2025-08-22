@@ -1,0 +1,117 @@
+body,
+html {
+  height: 100%;
+  /* margin: 5px; */
+}
+
+body {
+  background-color: rgb(205, 240, 240);
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-item__phone img {
+  width: 16px;
+  height: 16px;
+}
+
+.main-title {
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  /* text-shadow: 1px 1px 2px rgb(255, 0, 0); */
+}
+
+.contacts-list {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 90%;
+  max-width: 960px;
+  flex: 1;
+}
+
+.contact-item {
+  background-color: rgb(255, 252, 245);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  flex-basis: 250px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  background-image: url(img/thumb03.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-color: white;
+  flex-basis: 250px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  background-image: url(img/thumb03.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat; */
+}
+
+.contact-item__avatar img {
+  width: 100px;
+  border-radius: 50%;
+  margin: 100px 0 0 0;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contact-item__name {
+  color: rgb(70, 100, 107);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.contact-item__email {
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-item__email a {
+  text-decoration: none;
+  color: rgb(126, 126, 126);
+}
+
+.contact-item__phone {
+  display: flex;
+  font-size: 14px;
+  margin: 16px;
+  justify-content: center;
+  gap: 5px;
+  color: rgb(126, 126, 126);
+}
+
+.contact-item__phone img {
+  opacity: 0.4;
+}
+
+.contact-item__action {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background-color: #e4e4e4;
+}
+
+.contact-item__action img {
+  opacity: 0.5;
+}

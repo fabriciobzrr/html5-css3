@@ -1,0 +1,106 @@
+body {
+  margin: auto;
+  width: 70%;
+  /* margin-left: 150px; poderia apagar o margin: auto; e o width: 70% e substituir por margin-left e margin-right de sua preferência */
+  /* margin-right: 150px; */
+  font-family: sans-serif;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  color: rgb(0, 0, 92);
+  background-color: rgb(197, 197, 255);
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: rgb(0, 0, 92);
+  background-color: rgb(207, 207, 207);
+  text-align: justify;
+  font-size: 32px;
+  padding: 5px;
+  border-bottom: 2px solid rgb(24, 43, 85);
+  margin-bottom: 5px;
+}
+
+.desc {
+  background-color: rgb(240, 245, 255);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub {
+  margin-top: 0px;
+  padding-top: 5px;
+}
+
+.font {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.objetivo {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.corpalavra {
+  color: rgb(0, 0, 92);
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+ul li {
+  list-style-position: inside;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  background-color: rgb(109, 109, 109);
+  padding: 15px;
+}
+
+.menu li a:active {
+  background-color: rgb(255, 208, 0);
+  color: rgb(128, 0, 0);
+}
+
+.menu li a:hover {
+  color: white;
+  background-color: black;
+}
+
+.textformat li a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+  justify-content: flex-end;
+}

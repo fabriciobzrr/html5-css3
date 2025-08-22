@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <form action="" autocomplete="off">
+      <fieldset>
+        <legend>Cadastre-se!</legend>
+        <label for="username">Usuário</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          required
+          placeholder="Digite um nome de usuário válido"
+          minlength="5"
+          maxlength="30"
+        />
+
+        <label for="email">Endereço de E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="Digite um endereço de e-mail válido"
+          minlength="10"
+          maxlength="50"
+        />
+
+        <label for="password">Senha</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+          placeholder="Crie uma senha"
+          minlength="8"
+          maxlength="32"
+        />
+
+        <div class="login-register">
+          <button class="btn" type="submit">Cadastrar</button>
+          <p class="login">
+            Já possui uma conta?
+            <a href="index.html">Faça login</a>
+          </p>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

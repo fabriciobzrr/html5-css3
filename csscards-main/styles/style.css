@@ -1,0 +1,66 @@
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  background-image: url(/img/bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  padding: 1px;
+}
+
+.hero-content {
+  margin: 100px auto 0;
+  text-align: center;
+}
+
+.hero-content h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  border-bottom: 1px solid;
+  display: inline-block;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  gap: 16px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 16px;
+}
+
+.content-cards {
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+.content-cards img {
+  width: 100%;
+  display: block;
+}
+
+.content-cards p {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  padding: 12px 5px;
+  color: white;
+}

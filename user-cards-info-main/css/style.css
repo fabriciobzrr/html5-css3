@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Helvetica";
+  padding: 10px;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 20px #11111144;
+  border: 1px solid #ccc;
+  min-width: 350px;
+}
+
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info {
+  padding: 10px 0;
+}
+
+.user-info__name,
+.user-info__description {
+  margin: 12px 0;
+}
+
+.user-info__description {
+  background-color: #ddd;
+  width: fit-content;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.user-info__social {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: white;
+  /* background-color: blue; */
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: 0.4s;
+  opacity: 0.5;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+.facebook {
+  background-color: #0056b3;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}

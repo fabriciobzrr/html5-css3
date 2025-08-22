@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+form {
+  background-color: #fafafa;
+  width: 80%;
+  min-width: 450px;
+  max-width: 550px;
+  padding: 1.5rem;
+  box-shadow: -2px 0px 10px #00000025, 2px 0px 10px #00000025;
+}
+
+fieldset {
+  border: 0;
+}
+
+legend {
+  margin: 1.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f0744;
+}
+
+label,
+input,
+button {
+  display: block;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-bottom: 2px solid #7a6a91;
+  outline: none;
+  transition: padding-left 0.1s ease-in-out;
+}
+
+input:focus {
+  padding-left: 1rem;
+  background-color: #e1dce9;
+  outline: 2px solid #7a6a91;
+}
+
+button {
+  display: inline-block;
+  font-size: 1.1rem;
+  border: none;
+  background-color: #1f0744;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+button:hover {
+  background-color: #36106e;
+}
+
+.login {
+  font-size: 14px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #1f0744;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.login a:hover {
+  color: #1f0744;
+  text-decoration: underline;
+}
+
+.login-register {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.register {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+.register:hover {
+  color: #5c3b8f;
+  text-decoration: underline;
+}
+
+.forgot-password {
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #1f0744;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+  color: #5c3b8f;
+}
+
+.registered-container {
+  display: flex;
+  align-items: center;
+}
